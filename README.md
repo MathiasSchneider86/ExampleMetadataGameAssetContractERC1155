@@ -1,6 +1,8 @@
 # ExampleMetadataGameAssetContractERC1155
 Metadata according to the example ERC1155 game asset contract (for testnet usage). 
 
+## Some words in advance
+
 I'm actually exploring contract development, so please just use this to get an idea how to design your project and do your own research. There may still be some bugs or not efficient designs.
 
 This example focuses on the usage in a game. There is no contract URI implemented because I haven't completely explored these mechanics yet. This will follow in a later example.
