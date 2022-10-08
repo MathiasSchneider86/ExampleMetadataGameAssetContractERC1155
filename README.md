@@ -49,6 +49,10 @@ View in browser should then look like this:
 
 With the returned ipfs hash you can create the image links for the token metadata:
 
+```
+https://gateway.pinata.cloud/ipfs/QmP9dXGZ7aKfTW7nPf6SZR8kSEScmQocUGDJ4iw28KNTnf/02_dice_rare.PNG
+```
+
 ![ScreenShot](/img/ipfs_file_folder_hash_MPD_images.PNG)
 
 It should be mentioned that there is also an unique hash for each of the pictures, so you could also find the file through this link type:
