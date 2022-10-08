@@ -1,0 +1,29 @@
+{
+    "attributes": [
+        {
+            "display_type": "boost", 
+            "trait_type": "Rarity",
+            "value": "Epic"
+        },
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Stamina",
+            "value": 70
+        },
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Hp",
+            "value": 20
+        },
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Def",
+            "value": 20
+        },
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Sp",
+            "value": 20
+        }
+    ]
+}

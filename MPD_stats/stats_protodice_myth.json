@@ -1,0 +1,29 @@
+{
+    "attributes": [
+        {
+            "display_type": "boost", 
+            "trait_type": "Rarity",
+            "value": "Myth"
+        },
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Stamina",
+            "value": 80
+        },
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Hp",
+            "value": 25
+        },
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Def",
+            "value": 25
+        },
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Sp",
+            "value": 25
+        }
+    ]
+}
