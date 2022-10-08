@@ -26,3 +26,31 @@ The images are inserted in the metadata as complete link, so you can name the li
 
 ### _stats Folder
 The contract contains 11 token ids. The ids 1 to 5 represent the ingame assets which are spread in 5 rarities. So we create 5 .json object files and put some values in there to pick them up later in a game. 
+
+## Uploading the metadata to ipfs
+### Upload the images
+
+Navigate to the metadata folder and start the upload process for the images folder:
+
+```
+> cd MetadataProtoDice
+> pinata-cli -u MPD_images 
+Pinning, please wait...
+{
+  IpfsHash: 'QmP9dXGZ7aKfTW7nPf6SZR8kSEScmQocUGDJ4iw28KNTnf',
+  PinSize: 939621,
+  Timestamp: '2022-10-08T09:12:00.093Z'
+}
+```
+
+View in browser should then look like this:
+
+![ScreenShot](/img/ipfs_folder_MPD_images.PNG)
+
+With the returned ipfs hash you can create the image links for the token metadata:
+
+![ScreenShot](/img/ipfs_file_folder_hash_MPD_images.PNG)
+
+It should be mentioned that there is also an unique hash for each of the pictures, so you could also find the file through this link type:
+
+![ScreenShot](/img/ipfs_file_own_hash_MPD_images.PNG)
