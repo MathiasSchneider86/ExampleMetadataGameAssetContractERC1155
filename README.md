@@ -103,3 +103,23 @@ Further this link will be used in the constructor of the token, so this data is 
 ### Upload status values
 
 In this case the stats will be uploaded to ipfs, but typically it makes sense to provide them in another way (server containing your static web page hosting for example), because this is flexible and could be updated. 
+
+```
+> pinata-cli -u MPD_stats 
+Pinning, please wait...
+{
+  IpfsHash: 'QmYqgBHwesmS4NXAByJHE6dYqBuasummBmodb1McFLdR7o',
+  PinSize: 3779,
+  Timestamp: '2022-10-08T11:04:25.682Z'
+}
+```
+
+View in browser should then look like this:
+
+![ScreenShot](/img/ipfs_folder_MPD_data.PNG)
+
+The status values in this case are basic values like known from many rpg games:
+
+![ScreenShot](/img/ipfs_file_MPD_stats.PNG)
+
+The structure is the same as in the opensea metadata standard mentioned to display attributes. They are just extracted here to make them upgradeable. It is also possible to make a part of the attributes fix and another part flexible. This depends on the contract design.
