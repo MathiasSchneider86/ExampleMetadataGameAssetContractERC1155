@@ -61,7 +61,7 @@ It should be mentioned that there is also an unique hash for each of the picture
 
 ![ScreenShot](/img/ipfs_file_own_hash_MPD_images.PNG)
 
-### Update the .json metadata files
+### Update the .json metadata files and upload them
 
 With this style we put the links in the .json file for each token:
 
@@ -89,3 +89,17 @@ With the returned ipfs hash you can create the metadata links for each token:
 https://gateway.pinata.cloud/ipfs/QmZgAKuu8wBR3tMmZrTLC5ARAQoRD1oURDYigjNHJVYD93/0000000000000000000000000000000000000000000000000000000000000002.json
 ```
 ![ScreenShot](/img/ipfs_file_MPD_data.PNG)
+
+And with the above link we can determine the token URI as the following:
+
+```
+https://gateway.pinata.cloud/ipfs/QmZgAKuu8wBR3tMmZrTLC5ARAQoRD1oURDYigjNHJVYD93/{id}.json
+```
+
+In your game or application you can replace {id} with the hex number as string to query the json object.
+
+Further this link will be used in the constructor of the token, so this data is fixed from this point.
+
+### Upload status values
+
+In this case the stats will be uploaded to ipfs, but typically it makes sense to provide them in another way (server containing your static web page hosting for example), because this is flexible and could be updated. 
